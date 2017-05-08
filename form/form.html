@@ -3,9 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <title>Basic Form Validation</title>
-<script src="form.js"></script>
+<script type="text/javascript" src="form.js"></script>
 </head>
 <body>
+
+<form name="myForm" action="script_file" onsubmit="return validateForm()" method="post">
 	<table id="table">
 		<tr>
 			<td>First Name:</td>
@@ -42,6 +44,7 @@
 			<td><div id="errFinal"></div></td>
 		</tr>
 	</table>
+</form>
 
 </body>
 </html>
