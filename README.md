@@ -1,2 +1,2 @@
 # form
-custom form validation
+HTML, CSS, Javascript - custom form
