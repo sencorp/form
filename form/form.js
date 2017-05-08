@@ -1,3 +1,4 @@
+
 var divs = new Array();
 divs[0] = "errFirst";
 divs[1] = "errLast";
@@ -5,8 +6,7 @@ divs[2] = "errEmail";
 divs[3] = "errUid";
 divs[4] = "errPassword";
 divs[5] = "errConfirm";
-function validate()
-{
+function validate() {
      var inputs = new Array();
 	     inputs[0] = document.getElementById('first').value;
 	     inputs[1] = document.getElementById('last').value;
@@ -49,8 +49,7 @@ function validate()
               document.getElementById(div).innerHTML = "OK!";
      }
 }
-function finalValidate()
-{
+function finalValidate() {
      var count = 0;
     for(i=0;i<6;i++)
     {
@@ -61,3 +60,8 @@ function finalValidate()
    if(count == 6)
      document.getElementById("errFinal").innerHTML = "All the data you entered is correct!!!";
 }
+
+
+
+
+
